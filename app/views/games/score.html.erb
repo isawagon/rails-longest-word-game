@@ -1,0 +1,12 @@
+<h1>Here is your result</h1>
+<h1>grid</h1>
+<%=@grid%>
+<h1>your word</h1>
+<%=@word.upcase%>
+<p>
+<%=@result[:message]%>
+Your score :<%=@result[:score]%> points
+</p>
+
+
+<%=link_to "Play again", root_path%>
